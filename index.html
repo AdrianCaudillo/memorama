@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title> Memorama</title>
+
+    <!--Manifest-->
+    <link rel="manifest" href="./manifest.json">
+
+    <!--Iconos y CSS-->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icon-192.png">    
+</head> 
+<body>
+ <center><h1> Juego de Memorama </h1></center>
+
+ <p><center> Tiempo : <span id="timer">00:00</span> | Mejor : <span id="bestTime">--:--</span></center></p>
+ <div class="grid" id="gameBoard"></div>
+
+
+<!--Boton de la Instalacion manual-->
+<br/>
+<div style="text-align: center;">
+    <center><button id="btnInstall" style=" display:none"> Instalar App </button></center>
+</div>
+<script src="./app.js"></script>
+</body>   
+</html>
